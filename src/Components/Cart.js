@@ -9,7 +9,6 @@ const Cart =()=>{
 
     return(
         <div className="cart">
-           
            {cartItems.map((item,index)=>(
              <ItemList key={index} {...item}/>
            ))}
