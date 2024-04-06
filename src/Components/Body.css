@@ -1,0 +1,14 @@
+.clothes-list{
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns with equal width */
+     gap: 1rem;
+     padding: 10px;
+     margin: 10px;
+     justify-items: center;
+     
+}
+.body-container{
+   background:radial-gradient(circle, #E0FFFF, #FFE4E1);
+}
+

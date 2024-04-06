@@ -1,0 +1,38 @@
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    height: 340px;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    background-color: white;
+  }
+ 
+   .image{
+      width: 130px;
+      height:150px;
+      
+   }
+    .title{
+      font-size: 15px;
+   } 
+   .price{
+      font-size: 15px;
+      padding: 10px;
+      color: maroon;
+   }
+   .rating{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0px;
+      padding: 2px;
+    }
+    .rating > img{
+       padding: 2px;
+    } 
+  
